@@ -1,6 +1,6 @@
 lesson = {};
 $(function() {
-  $('body').html('<div><button id="start" style="display: none; padding: 10px;">Start</button></div><div id="output"></div>');
+  $('body').html('<div><button id="start" style="display: none; margin: 10px;">Start</button></div><div id="output"></div>');
   lesson.helloLib = ["Hello ", "[name]"];
   lesson.simpleLib = ["Please excuse ", "[person]", " from class because (s)he is ", "[adjective]"];
   lesson.longLib = [
