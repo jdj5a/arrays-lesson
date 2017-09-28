@@ -1,6 +1,6 @@
 lesson = {};
 $(function() {
-  $('body').html('<div id="output"></div>');
+  $('body').html('<div id="container"></div><div id="output"></div>');
   lesson.helloLib = ["Hello ", "[name]"];
   lesson.simpleLib = ["Please excuse ", "[person]", " from class because (s)he is ", "[adjective]"];
   lesson.longLib = [
@@ -28,4 +28,8 @@ $(function() {
     }
     output.innerHTML = content + text;
   };
+
+  lesson.addButton = function(caption) {
+    let container = document.getElementById("container");
+    container.innerHTML += caption + "BUTTTON HERE";
 });
