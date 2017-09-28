@@ -32,4 +32,5 @@ $(function() {
   lesson.addButton = function(caption) {
     let container = document.getElementById("container");
     container.innerHTML += caption + "BUTTTON HERE";
+  };
 });
