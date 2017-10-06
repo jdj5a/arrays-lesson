@@ -8,6 +8,11 @@ $(function() {
   "[noun]", " near the forest.  Whenever she went out, she wore a red riding ",
   "[noun]", ", so everyone in the ", "[noun]", " called her ", "[adjective]",
   " Red Riding ", "[noun]", "."];
+  lesson.humptyLib = [
+    "Humpty-Dumpty sat on a ", "[noun]",
+    "Humpty-Dumpty had a ", "[adjective]", " ", "[noun]", ". ",
+    "All the king's ", "[plural noun]", " and all the king's ", "[plural noun]",
+    "Cannot ", "[verb]", " Humpty-Dumpty ", "[adverb]", " again."];
 
   lesson.getHelloLib = function() {
     return this.helloLib;
@@ -18,6 +23,9 @@ $(function() {
   lesson.getLongLib = function() {
     return this.longLib;
   };
+  lesson.getHumptyLib = function() {
+    return this.humptyLib;
+  }
 
   lesson.print = function(text) {
     //alert(text);
